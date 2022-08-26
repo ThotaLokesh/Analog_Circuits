@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MF0 version="1.1" packageUris="http://schema.mathworks.com/mf0/ci/19700101 http://schema.mathworks.com/mf0/sl_modelref_info/R2021b http://schema.mathworks.com/mf0/slexec_mm_sto/R2021b_202103041117">
+  <ModelRefInfoRepo.ModelRefInfoRoot type="ModelRefInfoRepo.ModelRefInfoRoot" uuid="f75fc78a-a000-489e-866d-a37264a6880c">
+    <childModelRefInfo type="ModelRefInfoRepo.ChildModelRefInfo" uuid="0ae130f2-c3b0-4b90-8498-406aea186936">
+      <modelName>OP_AMP_DESIGN_INVERTING_CONFIGURATION</modelName>
+      <modelPath>OP_AMP_DESIGN_INVERTING_CONFIGURATION</modelPath>
+    </childModelRefInfo>
+    <dataTransferInfos>AAFJTQAAAAAOAAAAOAAAAAYAAAAIAAAAAgAAAAAAAAAFAAAACAAAAAAAAAABAAAAAQAAAAAAAAAFAAQAAQAAAAEAAAAAAAAA</dataTransferInfos>
+    <defaultsCMapping>{&quot;Inports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;\&quot;}&quot;,&quot;Outports&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;\&quot;}&quot;,&quot;ParameterArguments&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;LocalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;\&quot;}&quot;,&quot;GlobalParameters&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;\&quot;}&quot;,&quot;InternalData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;\&quot;}&quot;,&quot;SharedLocalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;GlobalDataStores&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;Constants&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;\&quot;}&quot;,&quot;DataTransfers&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;ModelData&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;None\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;None\&quot;}&quot;,&quot;InitializeTerminate&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;\&quot;}&quot;,&quot;Execution&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;\&quot;}&quot;,&quot;SharedUtility&quot;:&quot;{\&quot;Name\&quot;:\&quot;Default\&quot;,\&quot;Checksum\&quot;:\&quot;Default\&quot;,\&quot;PerInstancePropertiesChecksum\&quot;:\&quot;\&quot;,\&quot;MemorySectionName\&quot;:\&quot;\&quot;,\&quot;MemorySectionChecksum\&quot;:\&quot;\&quot;}&quot;}</defaultsCMapping>
+    <forceAutoToImplicitSolver>2</forceAutoToImplicitSolver>
+    <hasBwsAccessed>true</hasBwsAccessed>
+    <hasBwsAccessedByAnyModel>true</hasBwsAccessedByAnyModel>
+    <hasContinuousSampleTime>true</hasContinuousSampleTime>
+    <loggingSaveFormat>2</loggingSaveFormat>
+    <massMatrixIr>4</massMatrixIr>
+    <massMatrixIr>0</massMatrixIr>
+    <massMatrixIr>1</massMatrixIr>
+    <massMatrixIr>21</massMatrixIr>
+    <massMatrixIr>2</massMatrixIr>
+    <massMatrixIr>3</massMatrixIr>
+    <massMatrixIr>5</massMatrixIr>
+    <massMatrixIr>6</massMatrixIr>
+    <massMatrixIr>7</massMatrixIr>
+    <massMatrixIr>8</massMatrixIr>
+    <massMatrixIr>9</massMatrixIr>
+    <massMatrixIr>10</massMatrixIr>
+    <massMatrixIr>11</massMatrixIr>
+    <massMatrixIr>12</massMatrixIr>
+    <massMatrixIr>13</massMatrixIr>
+    <massMatrixIr>14</massMatrixIr>
+    <massMatrixIr>15</massMatrixIr>
+    <massMatrixIr>16</massMatrixIr>
+    <massMatrixIr>17</massMatrixIr>
+    <massMatrixIr>18</massMatrixIr>
+    <massMatrixIr>19</massMatrixIr>
+    <massMatrixIr>20</massMatrixIr>
+    <massMatrixIr>22</massMatrixIr>
+    <massMatrixIr>23</massMatrixIr>
+    <massMatrixIr>24</massMatrixIr>
+    <massMatrixIr>25</massMatrixIr>
+    <massMatrixIr>26</massMatrixIr>
+    <massMatrixIr>27</massMatrixIr>
+    <massMatrixIr>28</massMatrixIr>
+    <massMatrixIr>29</massMatrixIr>
+    <massMatrixIr>30</massMatrixIr>
+    <massMatrixIr>31</massMatrixIr>
+    <massMatrixIr>32</massMatrixIr>
+    <massMatrixIr>33</massMatrixIr>
+    <massMatrixJc>0</massMatrixJc>
+    <massMatrixJc>1</massMatrixJc>
+    <massMatrixJc>2</massMatrixJc>
+    <massMatrixJc>3</massMatrixJc>
+    <massMatrixJc>4</massMatrixJc>
+    <massMatrixJc>5</massMatrixJc>
+    <massMatrixJc>6</massMatrixJc>
+    <massMatrixJc>7</massMatrixJc>
+    <massMatrixJc>8</massMatrixJc>
+    <massMatrixJc>9</massMatrixJc>
+    <massMatrixJc>10</massMatrixJc>
+    <massMatrixJc>11</massMatrixJc>
+    <massMatrixJc>12</massMatrixJc>
+    <massMatrixJc>13</massMatrixJc>
+    <massMatrixJc>14</massMatrixJc>
+    <massMatrixJc>15</massMatrixJc>
+    <massMatrixJc>16</massMatrixJc>
+    <massMatrixJc>17</massMatrixJc>
+    <massMatrixJc>18</massMatrixJc>
+    <massMatrixJc>19</massMatrixJc>
+    <massMatrixJc>20</massMatrixJc>
+    <massMatrixJc>21</massMatrixJc>
+    <massMatrixJc>22</massMatrixJc>
+    <massMatrixJc>23</massMatrixJc>
+    <massMatrixJc>24</massMatrixJc>
+    <massMatrixJc>25</massMatrixJc>
+    <massMatrixJc>26</massMatrixJc>
+    <massMatrixJc>27</massMatrixJc>
+    <massMatrixJc>28</massMatrixJc>
+    <massMatrixJc>29</massMatrixJc>
+    <massMatrixJc>30</massMatrixJc>
+    <massMatrixJc>31</massMatrixJc>
+    <massMatrixJc>32</massMatrixJc>
+    <massMatrixJc>33</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixJc>34</massMatrixJc>
+    <massMatrixNzMax>34</massMatrixNzMax>
+    <massMatrixType>1</massMatrixType>
+    <maxFreqHz>-1.0</maxFreqHz>
+    <numCStateRecs>77</numCStateRecs>
+    <numContinuousStates>77</numContinuousStates>
+    <numDataInputPorts>0</numDataInputPorts>
+    <numLoggableCStateRecs>77</numLoggableCStateRecs>
+    <numLoggableJacobianDStates>0</numLoggableJacobianDStates>
+    <runtimeNonFcnCallRateInfos type="ModelRefInfoRepo.RateInfo">
+      <compiled>true</compiled>
+      <period>0.0</period>
+      <priority>40</priority>
+      <rateIdx>0</rateIdx>
+    </runtimeNonFcnCallRateInfos>
+    <sampleTimeInheritanceRule>2</sampleTimeInheritanceRule>
+    <solverStatusFlags>33101</solverStatusFlags>
+    <solverUpdateJacobianAtReset>true</solverUpdateJacobianAtReset>
+    <timingAndTaskingRegistry>&lt;?xml version=&quot;1.0&quot;?&gt;
+&lt;slexec_sto version=&quot;1.1&quot; packageUris=&quot;http://schema.mathworks.com/mf0/slexec_mm_sto/R2021b_202103041117&quot;&gt;
+  &lt;sto.Registry type=&quot;sto.Registry&quot; uuid=&quot;39b4b436-03b1-48d6-91e2-4bd2c3687ef9&quot;&gt;
+    &lt;clocks type=&quot;sto.Timer&quot; uuid=&quot;c54df4ce-861a-4954-bc73-d5b7613ffd57&quot;&gt;
+      &lt;clockDomain type=&quot;sto.ClockDomain&quot; uuid=&quot;352fa8e3-8d93-4243-b8ca-603501559f94&quot;&gt;
+        &lt;baseTaskID&gt;_task0&lt;/baseTaskID&gt;
+        &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;7a825b64-1f32-49f5-a333-001a43e4f45d&quot;/&gt;
+        &lt;rootTaskHierarchyElements type=&quot;sto.Task&quot; uuid=&quot;a82ca27c-4dc0-4084-a626-6b88b400a096&quot;&gt;
+          &lt;isExecutable&gt;true&lt;/isExecutable&gt;
+          &lt;orderIndex&gt;1&lt;/orderIndex&gt;
+          &lt;rates type=&quot;sto.Rate&quot; uuid=&quot;7a825b64-1f32-49f5-a333-001a43e4f45d&quot;&gt;
+            &lt;annotation&gt;Cont&lt;/annotation&gt;
+            &lt;description&gt;Continuous&lt;/description&gt;
+            &lt;eventSourceType&gt;UNSPECIFIED_EVENT_SOURCE&lt;/eventSourceType&gt;
+            &lt;registry type=&quot;sto.Registry&quot; uuid=&quot;39b4b436-03b1-48d6-91e2-4bd2c3687ef9&quot;/&gt;
+            &lt;taskId&gt;_task0&lt;/taskId&gt;
+            &lt;rateSpec type=&quot;sto.RateSpec&quot; uuid=&quot;994f1595-7dc2-43e5-b938-b6e128b929b9&quot;/&gt;
+          &lt;/rates&gt;
+          &lt;elementType&gt;Task&lt;/elementType&gt;
+          &lt;identifier&gt;_task0&lt;/identifier&gt;
+          &lt;priority&gt;40&lt;/priority&gt;
+        &lt;/rootTaskHierarchyElements&gt;
+      &lt;/clockDomain&gt;
+    &lt;/clocks&gt;
+    &lt;executionSpec&gt;Undetermined&lt;/executionSpec&gt;
+    &lt;taskDependencyGraph type=&quot;sto.SerializedTaskConnectionList&quot; uuid=&quot;3ae96abd-7eee-464a-ba27-149d27545566&quot;&gt;
+      &lt;taskIdentifier&gt;_task0&lt;/taskIdentifier&gt;
+    &lt;/taskDependencyGraph&gt;
+    &lt;taskPriorityDirection&gt;HighNumberLast&lt;/taskPriorityDirection&gt;
+    &lt;tasks type=&quot;sto.Task&quot; uuid=&quot;a82ca27c-4dc0-4084-a626-6b88b400a096&quot;/&gt;
+  &lt;/sto.Registry&gt;
+&lt;/slexec_sto&gt;</timingAndTaskingRegistry>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="ff102cfe-baea-4084-b4a0-9f8b9b4af42c">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET.mos.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="b9f1e317-bb28-42ef-a355-4d923d31d413">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET.mos.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="1cb8c1d3-7746-4d11-8179-de4d43a2906c">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET.mos.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="82d5fbfc-8f16-4372-bcdf-0a354d4dfaad">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET.mos.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="0705fa53-cf1a-478d-a65f-6c88c5ed5574">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET.mos.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="adeb8195-b5b9-4f61-a489-fc6797d888ed">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET1.mos.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="4ef60eaa-502f-4e37-94eb-c6297b94a6e4">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET1.mos.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="45c6dff4-d7bf-42ea-8bd0-4e01e30b4c20">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET1.mos.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="38c87c9d-f9e4-41b2-b2f0-602715ab1450">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET1.mos.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="fbaa72c8-f8d9-4a58-95ad-9dbae0f7ff95">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET1.mos.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="21133188-f822-4dfa-b522-ba8923b5eda7">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET2.mos.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="a49f8d80-9e41-4c7e-bab4-1eff9ac4f443">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET2.mos.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="e67232ed-7b58-4b91-a122-534739b05e32">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET2.mos.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="9a52051d-23a9-46f5-9060-7e1b4c15c386">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET2.mos.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="d01d32ec-8edb-4e91-b7ff-a6d25d0e347a">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET2.mos.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="b7e0c90b-0901-4038-a007-be6456b9d777">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET3.mos.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="3b6f2ac5-3f1f-4ab9-8626-a1dd6f670f97">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET3.mos.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="92206c66-86fe-4ddd-b80a-6ef52221ea23">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET3.mos.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="509f7413-2c6c-410c-b903-db69441501af">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET3.mos.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="9f623523-ffa7-4b51-9b91-e77f02cc971f">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET3.mos.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="9ebb5d07-cff7-4974-848d-07203c845f72">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET4.mos.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="161bb1e7-b021-4589-aecb-f87451f1dde9">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET4.mos.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="f4a630ce-2c8b-4724-bd51-d4db44372a1c">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET4.mos.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="abc9a736-c1f1-429b-b66f-d8712bc545e2">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET4.mos.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="eddb6339-8903-4c53-b7f2-55ec34fb1d36">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET4.mos.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="1d005d2a-d73b-4c70-83e7-2dd9872ea68a">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET5.mos.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="9353a0c0-25ef-4ea2-9af2-7d7853543a72">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET5.mos.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="ae5b57d8-ed6d-402f-b383-d850977f951f">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET5.mos.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="b2a5469a-2a28-4d07-80bc-54b3445d8cbd">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET5.mos.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="8041e174-8671-49d6-877f-520f916786c8">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET5.mos.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="49927aed-5459-470c-aae1-fcdafb923593">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET6.mos.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="c67eef04-c1c9-4fa9-8f42-310bdc794d9c">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET6.mos.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="4d70f42e-fc26-41fb-8313-dccae7f8e16b">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET6.mos.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="6908b90b-51b9-429e-81cb-67be0e2516db">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET6.mos.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="34041a96-52de-4599-bf38-5966d25e1f67">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET6.mos.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="ec10afb3-2678-452b-82e4-cc396e3723c1">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET7.mos.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="5ddb104f-ed68-4bbb-b8dd-9ffb8ccc8b43">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET7.mos.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="da00e44e-08a7-40e2-990a-9f02d5a10549">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET7.mos.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="d932f960-57f5-4a94-952a-a733d6df3ae6">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET7.mos.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="454f9ba0-7d07-42dd-9db3-293d8c34c01c">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET7.mos.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="72a92399-b2e8-4fbe-b0be-d39eb5c5b340">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET8.mos.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="2e2c89ed-e98e-4fea-a72f-f237e010c0d2">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET8.mos.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="049b26f3-0e37-4d09-b439-5b5a77e9291d">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET8.mos.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="c150a63a-a2b6-47af-9b94-7cda76811646">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET8.mos.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="c073335f-0708-4c9f-830a-31df86fd5da7">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>N_Channel_MOSFET8.mos.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="f85acf4d-eadf-4157-b9a9-b6eb5288dd43">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET.mos.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="e622787c-aed1-4f4f-b1d8-a69e6ae52b06">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET.mos.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="c58499ed-dd39-49d7-8c2c-154b7090cc24">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET.mos.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="91aa904f-e825-45e8-81c3-0d5f28b467f7">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET.mos.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="54163298-d892-441a-b060-11f1f0d1d787">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET.mos.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="3aea6b4c-37bb-4210-8eff-25f3ddd20d7e">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET1.mos.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="e015eb83-d372-4963-9ac2-468f15e1ee62">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET1.mos.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="7f177aa1-6bb0-420c-b7e7-b4ac0e22b66a">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET1.mos.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="7ea2910e-aa7f-4c14-b3fd-267e12696793">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET1.mos.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="f070842a-ef17-41d8-b077-47706ffc9441">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET1.mos.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="5cdb1e29-ecda-40f5-9a35-f9c780a48b0b">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET2.mos.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="4c01b636-5df7-42d0-84a4-6bad221bdff2">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET2.mos.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="9fb9c9ce-3528-44f2-b64e-203b4de1b822">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET2.mos.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="1a39dba5-28fa-4e2c-a2be-1334f80a22b4">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET2.mos.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="073f40ab-6385-45de-ba1e-621dc771a438">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET2.mos.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="6ac38796-4939-4be6-8a69-ad8e7b3e5a70">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET3.mos.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="b5ef760c-6bf7-4e79-bba1-2b827436e3d1">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET3.mos.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="a6bb5d24-3daf-4ceb-aaeb-721b4a99fd21">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET3.mos.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="e4845a1c-5ff2-4554-8f08-8df2ce59ab73">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET3.mos.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="493909fd-ee66-47cf-b85d-2084d2806aeb">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET3.mos.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="392ff739-8ade-49e0-9506-dd6c26b398cf">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET4.mos.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="56d7976c-0839-4f50-9fc7-ab4c81202425">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET4.mos.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="79871ce5-a209-4b22-b098-ca9981b02248">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET4.mos.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="a5116805-412a-4c44-8773-9daf8fbd2fad">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET4.mos.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="1ee1f8a5-78d4-4b09-aa2f-e238d9d6306e">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET4.mos.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="3d8ea8d2-e992-4e2d-8e6e-3fcae2abeeca">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET5.mos.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="7d48203e-9417-466d-b369-f4ad6e9e6fed">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET5.mos.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="636a110a-c813-4e79-8a0e-35d61c37f655">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET5.mos.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="601840c9-86df-44ee-92f7-ae35e5e5d5c4">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET5.mos.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="90b62271-13b6-4d43-ba1f-bc3f161f37cd">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET5.mos.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="7b2f5462-d842-4a10-85e9-5bc8d158f696">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET6.mos.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="2ff97aa8-a43e-4b43-92a2-a5f2d09c73b2">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET6.mos.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="90dc2679-5f1d-40cb-9531-c0e55da9d230">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET6.mos.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="c2bc2131-b0cf-49d8-a247-c28196a4b1cd">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET6.mos.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="ea552c47-5073-4bcd-b886-105ef9129eff">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET6.mos.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="3e92c111-f89e-4656-a6ad-f1e3a806e01a">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET7.mos.zc_1</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="a56aa0c7-4c80-4bd5-8a0c-520916d7cd87">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET7.mos.zc_2</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="b10b7fcb-61ed-451a-aada-7ea5f3fd9b28">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET7.mos.zc_3</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="80482d4e-4bdd-45ab-bd47-876f1729a01e">
+      <direction>43</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET7.mos.zc_4</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <zeroCrossingInfo type="ModelRefInfoRepo.ZeroCrossingInfo" uuid="ce353413-e2f1-4655-9963-a5ccae2dca34">
+      <direction>29</direction>
+      <isDiscrete>false</isDiscrete>
+      <name>P_Channel_MOSFET7.mos.zc_5</name>
+      <needsSolverReset>true</needsSolverReset>
+      <tolerance>-1.0</tolerance>
+      <width>1</width>
+    </zeroCrossingInfo>
+    <FMUBlockMap type="ModelRefInfoRepo.FMUBlockInfo" uuid="8a701cdc-5cb6-4bf6-af28-2ce3c2589c28"/>
+    <codeGenInfo type="ModelRefInfoRepo.CodeGenInformation" uuid="7e9f7216-9b5f-4890-addb-ad159a2ef9b4"/>
+    <compiledVariantInfos type="ModelRefInfoRepo.CompiledVariantInfoMap" uuid="dfe45ba1-b898-4e96-94fc-260f1f2bed16"/>
+    <configSettingsForConsistencyChecks type="ModelRefInfoRepo.ConfigSettingsForConsistencyChecks" uuid="033a6666-b02a-49eb-b46a-9d1fe27c913c">
+      <consistentOutportInitialization>true</consistentOutportInitialization>
+      <frameDiagnosticSetting>2</frameDiagnosticSetting>
+      <signalLoggingSaveFormat>2</signalLoggingSaveFormat>
+      <simSIMDOptimization>1</simSIMDOptimization>
+      <solverName>daessc</solverName>
+      <hardwareSettings type="ModelRefInfoRepo.HardwareSettings" uuid="4ce5c7c7-59e6-4ace-9d3f-fe6027917493">
+        <prodBitPerChar>8</prodBitPerChar>
+        <prodBitPerDouble>64</prodBitPerDouble>
+        <prodBitPerFloat>32</prodBitPerFloat>
+        <prodBitPerInt>32</prodBitPerInt>
+        <prodBitPerLong>32</prodBitPerLong>
+        <prodBitPerLongLong>64</prodBitPerLongLong>
+        <prodBitPerPointer>64</prodBitPerPointer>
+        <prodBitPerPtrDiffT>64</prodBitPerPtrDiffT>
+        <prodBitPerShort>16</prodBitPerShort>
+        <prodBitPerSizeT>64</prodBitPerSizeT>
+        <prodEndianess>1</prodEndianess>
+        <prodShiftRight>true</prodShiftRight>
+        <prodWordSize>64</prodWordSize>
+      </hardwareSettings>
+    </configSettingsForConsistencyChecks>
+    <controllableInputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="7e83723b-db1a-4b52-b9ff-5819829b063f"/>
+    <controllableOutputRatesMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="a0fcff6f-8654-4046-8704-08cbfde90f0e"/>
+    <dataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="8cf91442-4167-47c8-b858-4558cc0e7f67"/>
+    <expFcnUnconnectedDataPortGroup type="ModelRefInfoRepo.DataPortGroup" uuid="3f6c55f0-4cf0-4ad8-b6d1-a8401e181eeb"/>
+    <interfaceParameterInfo type="ModelRefInfoRepo.InterfaceParameterInfo" uuid="9df8887d-5035-482a-9d1f-b49ea5ba5d50"/>
+    <messageInfo type="ModelRefInfoRepo.MessageInformation" uuid="16eb6373-0cba-4611-99c7-26e6b83ae32e"/>
+    <methodInfo type="ModelRefInfoRepo.MethodExistenceInfo" uuid="e5ab5569-f531-4d7e-80e3-d4c9e50bf923">
+      <hasDerivMethod>true</hasDerivMethod>
+      <hasDisableMethod>true</hasDisableMethod>
+      <hasForcingFunctionMethod>true</hasForcingFunctionMethod>
+      <hasMassMatrixMethod>true</hasMassMatrixMethod>
+      <hasSystemInitializeMethod>true</hasSystemInitializeMethod>
+      <hasTerminateMethod>true</hasTerminateMethod>
+      <hasUpdateMethod>true</hasUpdateMethod>
+    </methodInfo>
+    <periodicEventPortUnsupportedBlockInfo type="ModelRefInfoRepo.PeriodicEventPortUnsupportedBlockInfo" uuid="c0477a6a-c847-4d8d-ac5a-14d7a5ffc43f"/>
+    <portGroupsRequireSameRate type="ModelRefInfoRepo.PortGroupsRequireSameRate" uuid="4fe4cbe0-3738-477c-8597-355e464fda75">
+      <DSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="e7f6821c-4176-4392-89f7-46ca261cebf1"/>
+      <GlobalDSMPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="1d435c25-7b03-4075-9812-e085bb6088ef"/>
+      <mergedPortGroups type="ModelRefInfoRepo.NameToPortGroupIdxVectMap" uuid="d91e6fa9-8869-4476-9ebf-a4dd979d3b0e"/>
+    </portGroupsRequireSameRate>
+    <rateBasedMdlGlobalDSMRateSpec type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="01f55d61-acf3-4e22-ab90-07ff54c8dcd6"/>
+    <rateSpecOfGlobalDSMAccessedByDescExpFcnMdlMap type="ModelRefInfoRepo.GlobalDSMRateSpecMap" uuid="262abf44-b96a-487f-a82c-b270136a8ffb"/>
+    <rootBlockDiagramInterface type="ci.Model" uuid="490813a2-8197-4fe2-890c-1046f1ca661c">
+      <p_RootComponentInterface type="ci.ComponentInterface" uuid="e9a148db-34f9-4f8b-a187-caf14675a654">
+        <p_Name>OP_AMP_DESIGN_INVERTING_CONFIGURATION</p_Name>
+        <p_Type>ROOT</p_Type>
+      </p_RootComponentInterface>
+    </rootBlockDiagramInterface>
+    <simulinkFunctions type="ModelRefInfoRepo.SimulinkFunctions" uuid="5650ddfc-4d36-4c71-ba24-ef8ce33038bf">
+      <compSimulinkFunctionCatalog></compSimulinkFunctionCatalog>
+    </simulinkFunctions>
+    <stateWriterToOwnerMap type="ModelRefInfoRepo.StateWriterInfo" uuid="30d5d981-cf10-4fa5-99ea-9c1dd021de19"/>
+    <stoClientDataRegistry type="sto.ClientDataRegistry" uuid="b1ffff50-319c-48b2-bf5e-fdc89a41e843">
+      <dataSets type="sto.ClientClockNamedDataSet" uuid="01c501b8-3896-4fb9-bdde-cb8505f05914">
+        <tag>sltpEvents</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="6c9e18df-af71-4d24-9942-5b1cf0e9d2e2">
+        <tag>sltpTaskGroups</tag>
+      </dataSets>
+      <dataSets type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="eded7ec1-46d4-49f5-a2fd-fe3e5d6da862">
+        <dSet type="ModelRefInfoRepo.SltpTaskData" uuid="9856022e-d51a-4559-9e00-1725dfc597b8"/>
+        <tSet type="ModelRefInfoRepo.SltpTaskData" uuid="9856022e-d51a-4559-9e00-1725dfc597b8">
+          <dataName>Cont</dataName>
+          <linkedSet type="sto.ClientTaskHierarchyElementNamedDataSet" uuid="eded7ec1-46d4-49f5-a2fd-fe3e5d6da862"/>
+          <id type="sto.TaskHierarchyElementId">
+            <id>_task0</id>
+          </id>
+        </tSet>
+        <tag>sltpTasks</tag>
+      </dataSets>
+    </stoClientDataRegistry>
+    <varTsUIDMap type="ModelRefInfoRepo.VarTsUIDMap" uuid="a81f693c-4c3e-4d56-9bbc-035ff969fb63"/>
+  </ModelRefInfoRepo.ModelRefInfoRoot>
+</MF0>
